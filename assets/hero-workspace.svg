@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1050" role="img" aria-labelledby="title desc">
+  <title id="title">明亮现代的个人工作空间</title>
+  <desc id="desc">一张带有桌面、电脑、植物和阳光窗景的个人主页视觉背景。</desc>
+  <defs>
+    <linearGradient id="wall" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#e8eee9"/>
+      <stop offset="0.55" stop-color="#d6ddd7"/>
+      <stop offset="1" stop-color="#c7d1cb"/>
+    </linearGradient>
+    <linearGradient id="desk" x1="0" x2="1">
+      <stop offset="0" stop-color="#b7926a"/>
+      <stop offset="1" stop-color="#7f5d41"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#273633"/>
+      <stop offset="1" stop-color="#0d1716"/>
+    </linearGradient>
+    <linearGradient id="overlay" x1="0" x2="1">
+      <stop offset="0" stop-color="#0a1514" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1050" fill="url(#wall)"/>
+  <g opacity="0.55">
+    <rect x="1070" y="0" width="64" height="540" fill="#ecf2ee"/>
+    <rect x="1180" y="0" width="38" height="540" fill="#263533"/>
+    <rect x="1268" y="0" width="34" height="540" fill="#263533"/>
+    <rect x="1134" y="0" width="440" height="540" fill="none" stroke="#59645f" stroke-width="10"/>
+    <line x1="1136" y1="178" x2="1574" y2="178" stroke="#77837e" stroke-width="8"/>
+  </g>
+  <ellipse cx="360" cy="842" rx="330" ry="140" fill="#142422" opacity="0.42" filter="url(#soft)"/>
+  <path d="M0 737 C330 672 650 647 973 668 C1202 683 1395 735 1600 806 L1600 1050 L0 1050 Z" fill="url(#desk)"/>
+  <path d="M178 892 C358 829 529 838 650 906 C712 941 695 1036 623 1050 L94 1050 C25 1015 45 938 178 892 Z" fill="#172624"/>
+  <g transform="translate(1068 530)">
+    <path d="M0 0 H470 C507 0 538 28 544 65 L600 415 H92 C52 415 20 386 14 347 Z" fill="url(#screen)"/>
+    <path d="M102 432 H595 L632 478 H145 Z" fill="#8f8c82"/>
+    <path d="M150 455 H486" stroke="#6e6b62" stroke-width="14" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(867 570)">
+    <ellipse cx="95" cy="150" rx="92" ry="32" fill="#b99066" opacity="0.4"/>
+    <path d="M33 68 H157 L137 172 H53 Z" fill="#d8c4a9"/>
+    <ellipse cx="95" cy="68" rx="62" ry="18" fill="#e8d6bd"/>
+    <path d="M94 58 C88 6 106 -35 160 -68" fill="none" stroke="#3e6f4d" stroke-width="10" stroke-linecap="round"/>
+    <path d="M109 25 C142 -24 185 -15 226 10 C190 39 142 48 109 25 Z" fill="#5f9364"/>
+    <path d="M99 36 C68 -5 37 -3 6 24 C42 43 77 55 99 36 Z" fill="#4f8358"/>
+    <path d="M108 -26 C134 -76 174 -91 225 -72 C195 -25 149 -4 108 -26 Z" fill="#6fa772"/>
+  </g>
+  <g transform="translate(650 745)">
+    <ellipse cx="82" cy="104" rx="94" ry="24" fill="#66533f" opacity="0.26"/>
+    <path d="M36 18 H129 L112 104 H52 Z" fill="#d2c7b5"/>
+    <ellipse cx="82" cy="18" rx="47" ry="14" fill="#f2e5d1"/>
+    <ellipse cx="82" cy="18" rx="31" ry="8" fill="#796c59"/>
+  </g>
+  <g transform="translate(782 890)" opacity="0.75">
+    <rect x="0" y="30" width="360" height="18" rx="9" fill="#59645f"/>
+    <rect x="280" y="0" width="185" height="18" rx="9" fill="#9b7c57" transform="rotate(17 280 0)"/>
+  </g>
+  <rect width="1600" height="1050" fill="url(#overlay)"/>
+</svg>
