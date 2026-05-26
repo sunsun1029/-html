@@ -1,6 +1,6 @@
 <script setup>
 import { onMounted, onUnmounted, ref } from "vue";
-import heroImage from "../assets/hero-workspace.png";
+import heroImage from "../assets/hero-workspace.svg";
 
 const isMenuOpen = ref(false);
 const isScrolled = ref(false);
