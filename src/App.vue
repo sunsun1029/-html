@@ -98,7 +98,7 @@ onUnmounted(() => {
       <div class="hero-overlay"></div>
       <div class="hero-content">
         <p class="eyebrow">Designer · Developer · Maker</p>
-        <h1 id="hero-title">你好，我是孙婉晴。</h1>
+        <h1 id="hero-title">你好，欢迎来到我的世界</h1>
         <p class="hero-copy">
           我专注于把清晰的想法做成好用、好看、可持续的数字产品。这里收集了我的项目、经历和最近正在思考的方向。
         </p>
